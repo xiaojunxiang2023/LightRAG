@@ -356,6 +356,9 @@ def parse_args() -> argparse.Namespace:
         "EMBEDDING_BATCH_NUM", DEFAULT_EMBEDDING_BATCH_NUM, int
     )
 
+    # Deduplication configuration
+    args.enable_deduplication = get_env_value("DEDUP_ENABLE", False, bool)
+
     ollama_server_infos.LIGHTRAG_NAME = args.simulated_model_name
     ollama_server_infos.LIGHTRAG_TAG = args.simulated_model_tag
 
