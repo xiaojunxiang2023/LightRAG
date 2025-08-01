@@ -252,7 +252,7 @@
       "serverInfo": "معلومات الخادم",
       "workingDirectory": "دليل العمل",
       "inputDirectory": "دليل الإدخال",
-      "maxParallelInsert": "معالجة المستندات المتزامنة",
+      "documentProcessing": "معالجة المستندات",
       "summarySettings": "إعدادات الملخص",
       "llmConfig": "تكوين نموذج اللغة الكبير",
       "llmBinding": "ربط نموذج اللغة الكبير",

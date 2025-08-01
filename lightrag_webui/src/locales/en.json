@@ -252,7 +252,7 @@
       "serverInfo": "Server Info",
       "workingDirectory": "Working Directory",
       "inputDirectory": "Input Directory",
-      "maxParallelInsert": "Concurrent Doc Processing",
+      "documentProcessing": "Document Processing",
       "summarySettings": "Summary Settings",
       "llmConfig": "LLM Configuration",
       "llmBinding": "LLM Binding",

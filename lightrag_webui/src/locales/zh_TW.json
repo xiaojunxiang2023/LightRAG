@@ -252,7 +252,7 @@
       "serverInfo": "伺服器資訊",
       "workingDirectory": "工作目錄",
       "inputDirectory": "輸入目錄",
-      "maxParallelInsert": "並行處理文档",
+      "documentProcessing": "文檔處理",
       "summarySettings": "摘要設定",
       "llmConfig": "LLM 設定",
       "llmBinding": "LLM 綁定",

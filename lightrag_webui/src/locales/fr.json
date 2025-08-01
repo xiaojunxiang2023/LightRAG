@@ -252,7 +252,7 @@
       "serverInfo": "Informations du serveur",
       "workingDirectory": "Répertoire de travail",
       "inputDirectory": "Répertoire d'entrée",
-      "maxParallelInsert": "Traitement simultané des documents",
+      "documentProcessing": "Traitement des documents",
       "summarySettings": "Paramètres de résumé",
       "llmConfig": "Configuration du modèle de langage",
       "llmBinding": "Liaison du modèle de langage",

@@ -561,6 +561,7 @@ def create_app(args):
                     "vector_storage": args.vector_storage,
                     "enable_llm_cache_for_extract": args.enable_llm_cache_for_extract,
                     "enable_llm_cache": args.enable_llm_cache,
+                    "enable_deduplication": args.enable_deduplication,
                     "workspace": args.workspace,
                     "max_graph_nodes": args.max_graph_nodes,
                     # Rerank configuration (based on whether rerank model is configured)
