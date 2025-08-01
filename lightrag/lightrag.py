@@ -89,7 +89,7 @@ from .utils import (
     generate_track_id,
     logger,
 )
-from .duplicate import LightRAGDeduplicationService
+from .deduplicate import LightRAGDeduplicationService
 from .types import KnowledgeGraph
 from dotenv import load_dotenv
 

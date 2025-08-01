@@ -49,7 +49,7 @@ from .constants import (
 from .kg.shared_storage import get_storage_keyed_lock
 import time
 from dotenv import load_dotenv
-from .duplicate import (
+from .deduplicate import (
     DeduplicationService,
     DeduplicationStrategyFactory,
 )
@@ -1370,7 +1370,7 @@ async def merge_nodes_and_edges(
 
         # Create strategy-specific configuration using ConfigFactory
         try:
-            from .duplicate import ConfigFactory
+            from .deduplicate import ConfigFactory
 
             dedup_config = ConfigFactory.create_config(
                 strategy_name,
