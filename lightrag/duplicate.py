@@ -127,6 +127,7 @@ class LLMBasedConfig(BaseDeduplicationConfig):
     min_batch_size: Optional[int] = None
     similarity_threshold: float = 0.85
     system_prompt: Optional[str] = None
+    strictness_level: str = "strict"
 
     def __post_init__(self):
         if self.max_batch_size is None:

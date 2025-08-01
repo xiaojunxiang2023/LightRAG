@@ -276,6 +276,8 @@ def display_splash_screen(args: argparse.Namespace) -> None:
     ASCIIColors.yellow(f"{args.cosine_threshold}")
     ASCIIColors.white("    ├─ Top-K: ", end="")
     ASCIIColors.yellow(f"{args.top_k}")
+    ASCIIColors.white("    ├─ Deduplication Enabled: ", end="")
+    ASCIIColors.yellow(f"{args.enable_deduplication}")
     ASCIIColors.white("    └─ Force LLM Summary on Merge: ", end="")
     ASCIIColors.yellow(
         f"{get_env_value('FORCE_LLM_SUMMARY_ON_MERGE', DEFAULT_FORCE_LLM_SUMMARY_ON_MERGE, int)}"

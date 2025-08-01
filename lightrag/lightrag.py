@@ -208,7 +208,7 @@ class LightRAG:
                     "DEDUP_STRICTNESS_LEVEL", "strict", str
                 ),  # "strict", "medium", "loose"
                 # strict: merge nodes ONLY if they represent the exact same real-world concept
-                #         Never merge nodes that are merely topically related (e.g., spelling variations, synonyms, or explicit duplicates). 
+                #         Never merge nodes that are merely topically related (e.g., spelling variations, synonyms, or explicit duplicates).
                 # medium: merge nodes if they represent the same core concept, including near-synonyms or semantically equivalent phrasing.
                 # loose: merge nodes if they represent the same thematic concept, including near-synonyms or semantically equivalent phrasing.
             },
